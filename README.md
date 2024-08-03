@@ -1,6 +1,8 @@
 # RAG Testing with T5 and LLaMA 3.1
 ## Objective
-The objective of this project is to attempt the same RAG methods with two different LLM's, T5 and LLaMA. A text document is provided for retrieval, and each pre trained LLM is expected to draw upon the given text when responding to select prompts.
+The original code in this library was based on another Kaggle user's guide on creating a RAG method using LLaMa2 and chromaDB. The project has been adjusted here to embed and prompt LLM's based on lecture transcript data using LLaMA 3.1 and T5. The quality of each model and RAG query chain is based on the relevance of the text documents it pulls.
+
+Lecture transcripts are provided for retrieval, and each pre trained LLM is expected to draw upon the given text when responding to select prompts.
 In addition, the project uses Langchain and ChromaDB, and neither LLM receives fine tuning. This project can serve as a springboard for other tasks, including the optimization of chunk size in the corpus of retrieval documents.
 
 ## Project Overview
