@@ -1,6 +1,6 @@
 # RAG Testing with Llama 3.1
 ## Objective
-The original code in this library was based on another Kaggle user's guide on creating a RAG method using LLaMa2 and chromaDB. The project has been adjusted here to embed and prompt LLM's based on lecture transcript data using LLaMA 3.1. The quality of each model and RAG query chain is based on the relevance of the text documents it pulls.
+This project's aim is to curate specific responses for prompts based on transcripts from AI related courses.
 
 Lecture transcripts are provided for retrieval, and each pre trained LLM is expected to draw upon the given text when responding to select prompts.
 In addition, the project uses Langchain and ChromaDB, and neither LLM receives fine tuning. This project can serve as a springboard for other tasks, including the optimization of chunk size in the corpus of retrieval documents.
