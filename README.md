@@ -1,4 +1,4 @@
-# RAG Testing with Llama 3.1
+# RAG Testing with Llama
 ## Objective
 This project's aim is to curate specific responses for prompts based on transcripts from AI related courses.
 
