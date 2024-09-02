@@ -23,7 +23,7 @@ The main components of this project include:
 
 ## Key outcomes and areas for further exploration
 - Grid search testing of different chunk size values generally yields either 124 or 256 as the optimal sizes for this data
-  - Testing time: Time to test chunks size via grid search and averaging results across ~20 sample prompts is signifcant; could improve with more robust pretrained model or adjusted corpus
+  - Time and resource required to test chunks size via grid search and averaging results across ~20 sample prompts is signifcant (>30 mins); could be improved with more robust pretrained model or adjusted corpus
   - Average for all tested chunk sizes varies between 0.45 and 0.55. This generally underperforms expectations, but can be improved with some prompt engineering. 
 - Baselines without Retrieval: Comparing RAG with a baseline model that generates responses without retrieval to highlight the benefits of incorporating a retrieval mechanism.
   - CoT prompts generally performed 5% to 10% better than unadjusted prompts
