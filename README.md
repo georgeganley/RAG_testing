@@ -28,4 +28,4 @@ The main components of this project include:
 - Baselines without Retrieval: Comparing RAG with a baseline model that generates responses without retrieval to highlight the benefits of incorporating a retrieval mechanism.
   - CoT prompts generally performed 5% to 10% better than unadjusted prompts
 - Data Augmentation: Enhancing the training data with additional context or related documents to improve the model's understanding and generation capabilities.
-- Improved Prompt Engineering: Experimenting with different prompt formats and instructions, like adding few shot along with existing CoT, to guide the model more effectively in generating accurate and relevant responses.
+- Opportunity for Improved Prompt Engineering: Experimenting with different prompt formats and instructions, like adding few shot along with existing CoT, to guide the model more effectively in generating accurate and relevant responses.
